@@ -21,7 +21,7 @@ topology:
         - 8080:8080
       startup-delay: 4
       exec:
-        - '/opt/topoviewer/topoviewer clab -H 149.204.21.68 -P 8080 -u suuser -p Lab-Her0 -j local-bind/topo-file.json' 
+        - '/opt/topoviewer/topoviewer clab -H 149.204.21.68 -P 8080 -u suuser -p j0k0w1 -j local-bind/topo-file.json' 
            ### "root" corresponds to the server username where containerLab is currently operational.
            ### "j0k0w1", corresponds to user's password
            ### "149.204.21.68", corresponds to the server IP address where containerLab is currently operational.
