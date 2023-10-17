@@ -191,6 +191,6 @@ topology:
     - spine-2:e1-12
     - dcgw-2:eth2
   - endpoints:
-    - dcgw-1:eth3 
+    - dcgw-1:eth3
     - dcgw-2:eth3
 debug: false
