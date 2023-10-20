@@ -23,7 +23,7 @@ topology:
       exec:
         - '/opt/topoviewer/topoviewer clab -H 149.204.21.68 -P 8080 -u suuser -p j0k0w1 -j local-bind/topo-file.json' 
            ### "root" corresponds to the server username where containerLab is currently operational.
-           ### "j0k0w1", corresponds to user's password
+           ### "j0k0w1", corresponds to user's password, we only need this for seamless link-impairment feature.
            ### "149.204.21.68", corresponds to the server IP address where containerLab is currently operational.
            ### "8080", corresponds to the port where the topoviewer service will be listening.
                  
@@ -180,10 +180,10 @@ topology:
     - spine-2:e1-10
   - endpoints:
     - spine-1:e1-11
-    - dcgw-1:eth1
+    - dcgw-1:e1-1
   - endpoints:
     - spine-1:e1-12
-    - dcgw-2:eth1
+    - dcgw-2:e1-1
   - endpoints:
     - spine-2:e1-11
     - dcgw-1:eth2
