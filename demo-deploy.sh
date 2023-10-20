@@ -2,6 +2,7 @@
 #!/bin/bash
 
 clab destroy -t 3tierSmall.yaml
+rm -Rrf *.yaml
 rm -Rrf *.yaml.*
 rm *.tmpl*
 
