@@ -180,10 +180,10 @@ topology:
     - spine-2:e1-10
   - endpoints:
     - spine-1:e1-11
-    - dcgw-1:e1-1
+    - dcgw-1:eth1
   - endpoints:
     - spine-1:e1-12
-    - dcgw-2:e1-1
+    - dcgw-2:eth1
   - endpoints:
     - spine-2:e1-11
     - dcgw-1:eth2
